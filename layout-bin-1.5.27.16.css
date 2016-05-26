@@ -1,0 +1,239 @@
+/*!
+* Bin css
+* Copyright 2016
+* 5/27/2016
+http://iyortml-share-recycle-bin.github.io
+*/
+
+body{
+	margin:0;
+	background:url("https://2.bp.blogspot.com/-zN1WwCe2Pr4/VykyDFwrECI/AAAAAAAABok/NRtWkDzOOjYiCzWLoY-g-rjl084k433TQCLcB/s1600/windows_10_material-wallpaper-1366x768.jpg")repeat scroll top left;
+	display:block;
+	-khtml-user-select:none;
+	-webkit-user-select:none;
+	-moz-user-select:none;
+	-ms-user-select:none;
+	-o-user-select:none;
+	user-select:none;
+	unselectable:on;
+	cursor:default;
+}
+
+/* Bin Folder */
+#me-bin-main{
+	width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    position: fixed;
+    z-index: 400;
+    display: none;
+}
+
+
+/*! kehead bin */
+.me-bin-kehed{
+    width: 100%;
+    height: 30px;
+    background: orange;
+    opacity: 0.6;
+    filter: alpha(opacity=60);
+}
+#me-restore-down{
+	background:url("https://4.bp.blogspot.com/-YR4ZOV18VsQ/V0dTTUeZ5ZI/AAAAAAAABv0/FjCD5eXxD0IUKmSZkGSS8zu25wbxvpn4wCLcB/s1600/me-restore-down.png");
+	float:right;
+	width:20px;
+	height:20px;
+	margin-right:2px;
+}
+#me-restore-down:hover{
+	background:url("https://3.bp.blogspot.com/-fk4UE0EeseQ/V0dTSxZ73hI/AAAAAAAABvw/73FbkjtYlvQyyxpgSnsqRMJxqQGtKoI_ACLcB/s1600/me-restore-down-hover.png");
+	background-color:blue;
+	float:right;
+	width:20px;
+	height:20px;
+	margin-right:2px;
+}
+
+#me-maximize{
+	display:none;
+	background:url("https://3.bp.blogspot.com/-b5NXQEFU2sk/V0dTSzwpyJI/AAAAAAAABvs/p8DdSjxOS88sGMyZX5C_ck_SkANp-AUnACLcB/s1600/me-maximize.png");
+	float:right;
+	width:20px;
+	height:20px;
+	margin-right:2px;
+}
+#me-maximize:hover{
+	background:url("https://4.bp.blogspot.com/-2-KjiYr6GWc/V0dTSnxPNzI/AAAAAAAABvo/Ptjsq1Au0mAjOC3i8AoXwSiykTBpMtEdwCLcB/s1600/me-maximize-hover.png");
+	background-color:blue;
+	float:right;
+	width:20px;
+	height:20px;
+	margin-right:2px;
+}
+#me-manimize{
+	background:url("https://2.bp.blogspot.com/-wmAFLywMXNA/V0dTST93xkI/AAAAAAAABvk/HJycgYcjmEoLc9AUOtW7R8X9kyTt2lXvgCLcB/s1600/me-manimize.png");
+	float:right;
+	width:20px;
+	height:20px;
+	margin-right:2px;
+}
+#me-manimize:hover{
+	background:url("https://4.bp.blogspot.com/-N4etbHXa5V0/V0dTSOjm0bI/AAAAAAAABvg/JgqJmjKnz08L-j2nfWRUomUHg3x4rL2JACLcB/s1600/me-manimize-hover.png");
+	background-color:blue;
+	float:right;
+	width:20px;
+	height:20px;
+	margin-right:2px;
+}
+
+
+#me-bin-kehead{
+	width:100%;
+	height:45px;
+	background:#1d1d1d;
+	margin:0px;
+	bottom:0px;
+	position:fixed;
+}
+#bin-minim{
+	background:#666;
+	display:none;
+	cursor:pointer;
+}
+
+/* Tengah bin */
+.me-bin-tengah {
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background: white;
+}
+#me-bin-random {
+    background: mediumseagreen;
+    width: 100%;
+    height: 100px;
+}
+#me-bin-ban {
+    background: mediumseagreen;
+    float: left;
+    width: 258px;
+    height: 100px;
+}
+#me-bin-random-ban{
+	color: mediumseagreen;
+}
+
+.me-lepi-button-satu:hover{
+	background:#ccc;
+	color:#3d3d3d;
+	-webkit-transition:all 0s ease;
+	-moz-transition:all 1s ease;
+	-o-transition:all 1s ease;
+	-ms-transition:all 1s ease;
+	transition:all 1s ease;
+}
+
+/*! bin-main */
+#me-bin {
+    margin: 0 auto;
+    display: none;
+    width: 80%;
+    font-family: Verdana, Helvetica, Arial, sans-serif;
+    -webkit-box-shadow: 0 0 10px 2px rgba(0, 0, 0, .5);
+    -moz-box-shadow: 0 0 10px 2px rgba(0, 0, 0, .5);
+    box-shadow: 0 0 10px 2px rgba(0, 0, 0, .5);
+    margin-top: -30px;
+    height: 500px;
+	overflow:auto;
+}
+
+/*http://iyortml-share-recycle-bin.github.io*/
+
+#me-bin-tampilan {
+    margin: 0 auto;
+    display: none;
+    width: 80%;
+    font-family: Verdana, Helvetica, Arial, sans-serif;
+    -webkit-box-shadow: 0 0 10px 2px rgba(0, 0, 0, .5);
+    -moz-box-shadow: 0 0 10px 2px rgba(0, 0, 0, .5);
+    box-shadow: 0 0 10px 2px rgba(0, 0, 0, .5);
+    margin-top: -30px;
+    height: 590px;
+}
+.sampah-main{
+	background:#555;
+	width:205px;
+	height:215px;
+	float:left;
+	margin:5px;
+}
+.sampah-main-anak img{
+	background:#fff;
+	width:195px;
+	height:170px;
+	margin:5px;
+}
+.sampah-title{
+    background: #fff;
+	padding-top:3px;
+	padding-left:2px;
+    width: 100%;
+    height: 27px;
+    text-align: left;
+}
+.sampah-delete img{
+	cursor:pointer;
+    width: 15px;
+    height: 30px;
+    float: right;
+    margin-top: -29px;
+	background:transparent;
+	-webkit-transition:all 0s ease;
+	-moz-transition:all 1s ease;
+	-o-transition:all 1s ease;
+	-ms-transition:all 1s ease;
+	transition:all 1s ease;
+	opacity:0;
+}
+
+.sampah-delete img:hover{
+	cursor:pointer;
+    width: 30px;
+    height: 30px;
+    float: right;
+    margin-top: -28px;
+	-webkit-transition:all 0s ease;
+	-moz-transition:all 1s ease;
+	-o-transition:all 1s ease;
+	-ms-transition:all 1s ease;
+	transition:all 1s ease;
+	opacity:1;
+}
+
+.sampah-delete img:active{
+	background:#555;
+	cursor:pointer;
+    width: 30px;
+    height: 30px;
+    float: right;
+    margin-top: -28px;
+	-webkit-transition:all 0s ease;
+	-moz-transition:all 1s ease;
+	-o-transition:all 1s ease;
+	-ms-transition:all 1s ease;
+	transition:all 1s ease;
+	opacity:1;
+	cursor:default;
+}
+
+/*http://iyortml-share-recycle-bin.github.io*/
+
+#hps-kembalikan{
+	margin:5px;
+	display:none;
+}
